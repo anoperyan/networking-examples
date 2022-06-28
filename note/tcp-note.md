@@ -22,8 +22,7 @@ TCP协议是一个用于分组交换网络中主机到主机的高度可靠的�
 |应答号（Acknowledge Number）|32| |
 |数据偏移（Data Offset）|4|指示真实数据从哪儿开始，前面都是TCP头|
 |保留位（Reserved）|6|必须全部为0，暂未启用|
-|控制位（Control Bits）|6|URG（紧急指针是否启用），ACK（ACK是否启用），PSH（Push函数是否启用），
-RST（重置连接是否启用），SYN（同步序列号是否启用），FIN（结束是否启用）|
+|控制位（Control Bits）|6|URG（紧急指针是否启用），ACK（ACK是否启用），PSH（Push函数是否启用），RST（重置连接是否启用），SYN（同步序列号是否启用），FIN（结束是否启用）|
 |窗口（Window）|16|当前发送者愿意接受的窗口长度|
 |校验和（Checksum）|16|用于校验数据是否出错|
 |紧急指针（Urgent Pointer）|16||
